@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ConstraintEvening5</string>
+    <string name="topic">What topic do you leave</string>
+    <string name="Books">Books</string>
+    <string name="Book1">News</string>
+    <string name="Books3">Entertainment</string>
+    <string name="Books4">Technology</string>
+    <string name="Books5">Grammer</string>
+    <string name="Books6">Podcasts</string>
+    <string name="Books7">Business</string>
+    <string name="Books8">Sports</string>
+    <string name="Books9">Pronounciation</string>
+    <string name="Books10">Health</string>
+
+    <string name="Books11">Continue</string>
+</resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<View
+    android:id="@+id/v1"
+   style="@style/view"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/blue"
+    ></View>
+    <ImageView
+        android:id="@+id/iv1"
+       style="@style/imageview"
+        android:background="@drawable/ic_vector__1_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        ></ImageView>
+
+    <TextView
+       style="@style/textview"
+        android:textStyle="bold"
+        android:text="@string/topic"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv1"  />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+      style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/v1"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+           style="@style/textview2"
+            android:text="@string/Books"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c1"
+        app:layout_constraintEnd_toEndOf="@id/c1"
+        app:layout_constraintTop_toBottomOf="@id/c1">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c2"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c1"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Book1"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c2"
+        app:layout_constraintEnd_toEndOf="@id/c2"
+        app:layout_constraintTop_toBottomOf="@id/c2">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c2"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books3"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c3"
+        app:layout_constraintEnd_toEndOf="@id/c3"
+        app:layout_constraintTop_toBottomOf="@id/c3">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c4"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c3"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books4"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c4"
+        app:layout_constraintEnd_toEndOf="@id/c4"
+        app:layout_constraintTop_toBottomOf="@id/c4">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c12"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c4"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books4"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c12"
+        app:layout_constraintEnd_toEndOf="@id/c12"
+        app:layout_constraintTop_toBottomOf="@id/c12">
+
+    </View>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c5"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/v1"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books6"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c5"
+        app:layout_constraintEnd_toEndOf="@id/c5"
+        app:layout_constraintTop_toBottomOf="@id/c5">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c6"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c5"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books7"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c6"
+        app:layout_constraintEnd_toEndOf="@id/c6"
+        app:layout_constraintTop_toBottomOf="@id/c2">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c7"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c6"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books8"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c7"
+        app:layout_constraintEnd_toEndOf="@id/c7"
+        app:layout_constraintTop_toBottomOf="@id/c3">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c8"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c7"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books9"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c7"
+        app:layout_constraintEnd_toEndOf="@id/c7"
+        app:layout_constraintTop_toBottomOf="@id/c4">
+
+    </View>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c9"
+        style="@style/cardview"
+        app:layout_constraintTop_toBottomOf="@id/c8"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            style="@style/textview2"
+            android:text="@string/Books10"
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        style="@style/view3"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="@id/c9"
+        app:layout_constraintEnd_toEndOf="@id/c9"
+        app:layout_constraintTop_toBottomOf="@id/c9">
+
+    </View>
+    <Button
+        style="@style/Button"
+        android:text="Contune"
+       android:textSize="@dimen/dp_30"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+
+    </Button>
+    <View
+
+        style="@style/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/blue"
+        ></View>
+</androidx.constraintlayout.widget.ConstraintLayout>

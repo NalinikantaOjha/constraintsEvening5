@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_100</item>
+        <item name="background">@color/blue</item>
+    </style>
+    <style name="imageview">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:padding">@dimen/dp_10</item>
+    </style>
+    <style name="textview">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dp_20</item>
+        <item name="background">@color/white</item>
+        <item name="telltales_tailColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/dp_20</item>
+    </style>
+    <style name="view3">
+        <item name="android:layout_width">@dimen/dp_200</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="background">@color/blue</item>
+
+    </style>
+    <style name="Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dp_20</item>
+        <item name="android:padding">@dimen/dp_10</item>
+    </style>
+
+</resources>
